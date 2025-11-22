@@ -6,4 +6,4 @@ def test_profile_format():
 
 def test_empty_name():
     user = User(name=" ")
-    assert "Name : " in user.get_profile()
+    assert "Name : " in user.get_profile()  
